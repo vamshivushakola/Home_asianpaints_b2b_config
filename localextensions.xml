@@ -1,0 +1,71 @@
+<hybrisconfig xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../bin/platform/resources/schemas/extensions.xsd'>
+  <extensions>
+    <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
+    <extension name='ldap' />
+    <extension name='virtualjdbc' />
+    <extension name='springintegrationlibs' />
+    <extension name='hmc' />
+    <extension name='voucher' />
+    <extension name='platformhmc' />
+    <extension name='promotions' />
+    <extension name='customerreview' />
+    <extension name='backoffice' />
+    <extension name='platformbackoffice' />
+    <extension name='solrfacetsearch' />
+    <extension name='basecommerce' />
+    <extension name='cms2' />
+    <extension name='cms2lib' />
+    <extension name='ticketsystem' />
+    <extension name='payment' />
+    <extension name='solrfacetsearchhmc' />
+    <extension name='commerceservices' />
+    <extension name='admincockpit' />
+    <extension name='cockpit' />
+    <extension name='acceleratorcms' />
+    <extension name='acceleratorfacades' />
+    <extension name='acceleratorservices' />
+    <extension name='acceleratorstorefrontcommons' />
+    <extension name='addonsupport' />
+    <extension name='commercefacades' />
+    <extension name='mcc' />
+    <extension name='commercesearchbackoffice' />
+   <!--  <extension name='yacceleratorcore' />
+    <extension name='yacceleratorcockpits' />
+    <extension name='yacceleratorinitialdata' />
+    <extension name='yacceleratorstorefront' /> -->
+    
+    <extension name='asianpaintsb2bcockpits' />
+    <extension name='asianpaintsb2bcore' />
+    <extension name='asianpaintsb2bfacades' />
+    <extension name='asianpaintsb2bfulfilmentprocess' />
+    <extension name='asianpaintsb2binitialdata' />
+    <extension name='asianpaintsb2bstorefront' />
+    <extension name='asianpaintsb2btest' />
+    
+    <!--BrainTree Addons  -->
+    <extension name="braintree"/>
+	<extension name="braintreeb2baddon"/>
+	<extension name="braintreecscockpit"/>
+    
+    
+    
+    <extension name='yaddon' />
+    <extension name='ycommercewebservices' />
+    <!-- <extension name='yacceleratorfacades' /> -->
+    <extension name='solrserver' />
+    <extension name='powertoolsstore' />
+    <extension name='commerceorgaddon' />
+    <extension name='b2bacceleratoraddon' />
+    <extension name='b2bacceleratorservices' />
+    <extension name='b2bapprovalprocess' />
+    <extension name='b2bcommerce' />
+    <extension name='b2badmincockpit' />
+    <extension name='b2bcommercebackoffice' />
+    <extension name='liveeditaddon' />
+    <extension name='acceleratorwebservicesaddon' />
+    <extension name='warehousingbackoffice' />
+    <extension name='warehousing' />
+   <!--  <extension name='yacceleratorordermanagement' /> -->
+    <extension name='ordermanagementbackoffice' />
+  </extensions>
+</hybrisconfig>
